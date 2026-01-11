@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Flower Collection</title>
+    <link href="https://fonts.cdnfonts.com/css/cooper-black" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+      <h3 class="logo"><a href="index.html">Our Blooms&reg;</a> </h3>
+      <nav class="navbar">
+          <ul>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+
+    <main>
+        <section>
+            <h1 class="heading">ABOUT</h1>
+        </section>
+        <section class="section">
+            <div class="left-section">
+                <h1 class="side-title">OUR STORY</h1>
+            </div>
+            <div class="right-section">
+                <div class="about-section">
+                    <img src="./assets/image/a1.jpg" alt="lily smith">
+                    <div>
+                        <h4>LILY SMITH</h4>
+                        <p>Owner</p>
+                    </div>
+                </div>
+                <p class="heading-content">Our Blooms was founded in honor of Lily Smith’s loving aunts, Teresa and
+                    Beth.</p>
+                <div class="images-sort">
+                    <img src="./assets/image/g5a.jpg" alt="Flower-image">
+                    <img src="./assets/image/a3.jpg" alt="Flower-image">
+                    <img src="./assets/image/a4.jpg" alt="Flower-image">
+                </div>
+                <p class="content-paragraph">Lily’s journey with flowers began in the heart of Oregon, amidst the
+                    flourishing fields of her aunts' flower farm. It was there, surrounded by the abundance of nature,
+                    that she discovered her passion for floral design. From learning the names of each bloom to
+                    understanding the delicate balance of a bouquet, she absorbed the artistry of flowers like the rich
+                    Oregon soil.
+                    <br> <br> Bloom & Co. is the expression of that lifelong passion, a place where her love for flowers
+                    translates into beautifully curated arrangements that bring joy and elegance to your spaces.
+                </p>
+
+                <img class="image"
+                    src="./assets/image/g9.jpg"
+                    alt="Flower Image">
+                <p class="content-paragraph">
+                    From humble beginnings, Bloom&Co has grown into a beloved local destination, known for its artistic
+                    arrangements, personal service, and commitment to quality.
+                    <br> <br> Discover how we can add a touch of natural beauty to your next event.
+                </p>
+                <button class="button"><ul><li>BOOK A CONSULTATION</li></ul></button>
+            </div>
+        </section>
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div>
+            <div class="parent-item">
+                <img src="./assets/image/last image.jpg" alt="Flower Image">
+
+                <div class="child-item">
+                    <h1>OB.</h1>
+                    <p>Miami, FL</p>
+                    <p><a href="contact.html">contact</a> </p>
+                </div>
+            </div>
+    </footer>
+        <script>
+        const hamburger = document.getElementById("hamburger");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        hamburger.addEventListener("click", () => {
+            mobileMenu.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>

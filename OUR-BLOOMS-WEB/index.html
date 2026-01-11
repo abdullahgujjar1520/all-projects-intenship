@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blooms</title>
+    <link href="https://fonts.cdnfonts.com/css/cooper-black" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <h3 class="logo"><a href="index.html">Our Blooms&reg;</a> </h3>
+        <nav class="navbar">
+            <ul>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <nav class="mobile-menu" id="mobileMenu">
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">ABOUT</a>
+          <a href="contact.html">CONTACT</a>
+      </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <div class="hero">
+        <div class="hero">
+            <h1 class="section-title">OUR BLOOMS&reg;</h1>
+        </div>
+        <div class="hero-images">
+            <img src="./assets/image/main.jpg" alt="Flower Image">
+        </div>
+    </div>
+    <main class="container">
+        <div class="gallery-content">
+            <h4>WHO WE ARE</h4>
+            <p>
+                We're Our Blooms&reg; and we're here to help <br>
+                you find your floral story.
+            </p>
+            <button class="button">
+                <ul>
+                    <li>ABOUT US</li>
+                </ul>
+            </button>
+        </div>
+        <div class="gallery-images">
+            <img src="./assets/image/g5a.jpg"alt="Flower Image">
+            <img src="./assets/image/a4.jpg" alt="Flower Image">
+            <img src="./assets/image/g4.jpg" alt="Flower Image">
+            <img src="./assets/image/g7.jpg" alt="Flower">
+            <img src="./assets/image/h5.jpg" alt="Flower">
+            <img src="./assets/image/g8.jpg" alt="Flower">
+            <img src="./assets/image/g5.jpg" alt="Flower">
+        </div>
+
+        <div class="gallery-text">
+            <h2>WHAT WE DO</h2>
+            <p>We bring a touch of that simple magic into your world</p>
+        </div>
+
+
+        <!-- ================= SERVICES SECTION ================= -->
+        <section class="services">
+
+            <!-- Service 1 -->
+            <div class="service-box">
+                <h4>1</h4>
+                <img src="./assets/image/s1.jpg" alt="Service">
+                <h1>FLORAL INSTALLATIONS</h1>
+                <p>Living art for homes, businesses, and events.</p>
+
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-box">
+                <h4>2</h4>
+                <img src="./assets/image/s2.jpg" alt="Service">
+                <h1>NATIVE PLANT ARRANGEMENTS</h1>
+                <p>
+                    Whether it's private retreat or a public space, we craft floral
+                    experiences that bloom beyond expectations.
+                </p>
+
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-box">
+                <h4>3</h4>
+                <img src="./assets/image/g9.jpg" alt="Service">
+                <h1>CUSTOM FLORAL CONCEPTS</h1>
+                <p>
+                    Your vision, our blooms. We build arrangements that are both personal and
+                    exquisitely simple. Whether it's a private retreat or a public space,
+                    we craft floral experiences that bloom beyond expectations.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- ================= FULL-WIDTH IMAGE ================= -->
+        <section class="full-banner">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/049/855/505/small/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-free-photo.jpg"
+                alt="Flower Image">
+        </section>
+
+
+        <!-- ================= WORK WITH US SECTION ================= -->
+        <section class="work-with-us">
+            <h4>WORK WITH US</h4>
+            <p><b>Discover how we can add a touch of <br> natural beauty to your next event.</b></p>
+            <button class="button">
+                <ul>
+                    <li>ABOUT US</li>
+                </ul>
+            </button>
+        </section>
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div>
+            <div class="parent-item">
+                <img src="./assets/image/last image.jpg" alt="Flower Image">
+
+                <div class="child-item">
+                    <h1>OB.</h1>
+                    <p>Miami, FL</p>
+                    <p>contact</p>
+                </div>
+            </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        hamburger.addEventListener("click", () => {
+            mobileMenu.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
